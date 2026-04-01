@@ -127,6 +127,22 @@
 </head>
 
 <body>
+<head>
+  <style>
+    .names span {
+      display: block;
+    }
+
+    .names span:first-child {
+      font-size: 40px;
+    }
+
+    .names span:last-child {
+      font-size: 50px;
+      font-weight: bold;
+    }
+  </style>
+</head>
 
   <!-- FLOWERS -->
   <!-- <img src="https://pngimg.com/uploads/flower/flower_PNG102.png" class="flower" style="left:10%; animation-delay:0s;">
@@ -135,9 +151,14 @@
   <img src="https://pngimg.com/uploads/flower/flower_PNG102.png" class="flower" style="left:80%; animation-delay:1s;"> -->
 
   <!-- HERO -->
-  <div class="hero">
+ <div class="hero">
     <div class="title">Wedding Invitation</div>
-    <h1 class="names">Manavi Weds Bheem Reddy</h1>
+    <h1 class="names">
+  <span>Manavi </span>
+  <span>Weds</span>
+  <span>Bheem Reddy</span>
+</h1>
+    <!-- <h1 class="names">Manavi Weds Bheem Reddy</h1> -->
     <div class="invite-line">We invite you to celebrate our wedding</div>
     <div class="date">April 19, 2026</div>
     <button class="btn" onclick="scrollToSection()">View Invitation</button>
